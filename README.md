@@ -20,7 +20,7 @@
 * git merge dev               合并dev分支到当前分支
 
 
-
+## 协同开发步骤
 1. git pull https://github.com/leiyt/qujing_university  克隆项目
 2. git pull https://github.com/leiyt/qujing_university 拉取项目(开始开发前拉取一下最新项目)
 3. git checkout -b zhouyun 创建分支zhouyun(避免冲突)
