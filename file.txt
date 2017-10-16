@@ -1,0 +1,8 @@
+1.克隆：git clone https://github.com/leiyt/qujing_university.git
+2.切换路径：cd qujing_university
+3.git pull
+4.操作：git add file.txt
+   git commit -m " add file"
+5.上传git push -u origin master
+
+
