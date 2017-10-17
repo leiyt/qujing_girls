@@ -18,6 +18,7 @@
 * git branch                  查看当前分支
 * git branch -d dev           删除dev分支
 * git merge dev               合并dev分支到当前分支
+* git 
 
 
 ## 协同开发步骤
