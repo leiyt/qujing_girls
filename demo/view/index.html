@@ -12,58 +12,81 @@
 <body>
     <!-- SUI页面容器 -->
     <div class="page-group">
-    	<!-- 页面1 -->
-        <div class="page page-current">
-        	<!-- 顶部栏 -->
+        <!-- 页面1 -->
+        <div class="page page-current" id="page1">
+            <!-- 顶部栏 -->
+            <header class="bar bar-nav">
+                <a class="button button-link button-nav pull-left" href="/demos/card" data-transition='slide-out'>
+			      <span class="icon icon-left back"></span>
+			      返回
+			    </a>
+                <h1 class="title">页面1</h1>
+            </header>
+            <!-- 底部菜单 -->
+            <nav class="bar bar-tab">
+                <a class="tab-item active" href="#">
+				      <span class="icon icon-home"></span>
+				      <span class="tab-label">首页</span>
+			    </a>
+                <a class="tab-item" href="#">
+				      <span class="icon icon-me"></span>
+				      <span class="tab-label">我</span>
+			    </a>
+                <a class="tab-item" href="#">
+				      <span class="icon icon-star"></span>
+				      <span class="tab-label">收藏</span>
+			    </a>
+                <a class="tab-item" href="#">
+				      <span class="icon icon-settings"></span>
+				      <span class="tab-label">设置</span>
+			    </a>
+            </nav>
+            <!-- 内容部分 -->
+            <div class="content">
+                <div class="content-block">
+                    <h4>我是第一个SUI页面</h4>
+                    <p><a href="#page2" class="button button-big button-round">下一页</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- 页面2 -->
+        <div class="page" id="page2">
             <header class="bar bar-nav">
                 <a class="button button-link button-nav pull-left" href="/demos/card" data-transition='slide-out'>
 			      <span class="icon icon-left"></span>
 			      返回
 			    </a>
-                <h1 class="title">我是一个SUI页面</h1>
+                <h1 class="title">页面2</h1>
             </header>
-            <!-- 底部菜单 -->
-            <nav class="bar bar-tab">
-			    <a class="tab-item active" href="#">
-				      <span class="icon icon-home"></span>
-				      <span class="tab-label">首页</span>
-			    </a>
-			    <a class="tab-item" href="#">
-				      <span class="icon icon-me"></span>
-				      <span class="tab-label">我</span>
-			    </a>
-			    <a class="tab-item" href="#">
-				      <span class="icon icon-star"></span>
-				      <span class="tab-label">收藏</span>
-			    </a>
-			    <a class="tab-item" href="#">
-				      <span class="icon icon-settings"></span>
-				      <span class="tab-label">设置</span>
-			    </a>
-			 </nav>
-			 <!-- 内容部分 -->
-			 <div class="content">
-			 	<h4>我是第一个SUI页面</h4>
-			 </div>
+            <!-- 在此填充代码 -->
+            <div class="content">
+                <div class="content-block">
+                    <h4>我是第二个SUI页面</h4>
+                    <p><a href="#page3" class="button button-big button-round">下一页</a></p>
+                </div>
+            </div>
         </div>
-		
-		<!-- 页面2 -->
-        <div class="page">
-        	<header class="bar bar-nav">
+        <!-- 页面3 -->
+        <div class="page" id="page3">
+            <header class="bar bar-nav">
                 <a class="button button-link button-nav pull-left" href="/demos/card" data-transition='slide-out'>
 			      <span class="icon icon-left"></span>
 			      返回
 			    </a>
-                <h1 class="title">我是另一个SUI页面</h1>
+                <h1 class="title">页面3</h1>
             </header>
             <!-- 在此填充代码 -->
             <div class="content">
-            	<h4 >我是第二个SUI页面</h4>
+                <div class="content-block">
+                    <h4>我是第三个SUI页面</h4>
+                    <p><a href="#page1" class="button button-big button-round">首页</a></p>
+                </div>
             </div>
         </div>
     </div>
 </body>
 <script type='text/javascript' src='../lib/zepto.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='../lib/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='../resources/js/index.js' charset='utf-8'></script>
 
 </html>
