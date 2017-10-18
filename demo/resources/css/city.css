@@ -1,0 +1,127 @@
+/*city.css*/
+@charset "utf-8";
+.bar-nav {
+    background: #1FCCA9;
+}
+.bar-nav .title{
+    color: #fff;
+}
+.bar-nav .back{
+    width: 1rem;
+    height: 1rem;
+    background: url(../images/icon/white.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.bar-header-secondary{
+    font-size: .75rem;
+}
+
+.icon-search:before { 
+    display: none;
+}
+
+.bar-header-secondary .icon-search {
+    width: 1rem;
+    height: 1rem;
+    background: url(../images/icon/search.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.content{
+    background: #fff;    
+}
+
+.city-item{
+    width: 90%;
+    padding: 10px 20px;
+}
+
+.title-box {
+    font-size: .7rem;
+    color: #999;
+    padding: 5px 0;
+}
+
+.row p {
+    margin: 2px 0;
+    padding: 0;
+}
+
+.row .button-dark{
+    border-color: #ccc;
+}
+
+/*城市弹层*/
+.container {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 9999;
+}
+
+.letter {
+    width: 8%;
+    overflow: hidden;
+    line-height: 32px;
+    font-size: 16px;
+    position: fixed;
+    top: 4.4rem;
+    right: 10px;
+    text-align: center;
+}
+
+.letter ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #1FCCA9;
+}
+
+.letter ul .small{
+    font-size: .6rem;
+    line-height: 1.2rem;
+}
+
+.letter ul li a {
+    text-decoration: none;
+    text-align: right;
+}
+
+.city {
+    width: 100%;
+    overflow: hidden;
+}
+
+.city-list {
+    width: 100%;
+    overflow: hidden; 
+}
+
+.city-list .city-letter {
+    width: 100%;
+    color: #6e6e6e;
+    font-size: 16px;
+    display: inline-block;
+    border-bottom: 1px solid #e8ecf1;
+    background-color: rgba(0,0,0,.1);
+}
+
+.city-list>span,.city-list>p{
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px 0 0 0;
+}
+
+.city-list p {
+    color: #afafaf;
+    width: 90%;
+    border-bottom: 1px solid #e8ecf1;
+    cursor: pointer;
+}
+
+.UISelect {
+    margin-top: 5px;
+}
