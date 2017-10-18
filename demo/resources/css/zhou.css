@@ -184,3 +184,10 @@
    
     z-index: 99;
 }
+.nav_li{height: 1.2rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    padding-top: 0;
+    padding-bottom: 0;}
+
+  .nav_li img  {height:100%; margin:4px auto; }
