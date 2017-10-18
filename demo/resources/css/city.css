@@ -52,6 +52,11 @@
     border-color: #ccc;
 }
 
+.row .button-blue{
+    border-color: #1FCCA9;
+    color: #1FCCA9;
+}
+
 /*城市弹层*/
 .container {
     width: 100%;
@@ -76,7 +81,6 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
-    color: #1FCCA9;
 }
 
 .letter ul .small{
@@ -87,6 +91,7 @@
 .letter ul li a {
     text-decoration: none;
     text-align: right;
+    color: #1FCCA9;
 }
 
 .city {
