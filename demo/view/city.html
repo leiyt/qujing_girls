@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>城市列表</title>
     <link rel="stylesheet" href="../lib/sm.min.css">
+    <!-- <link rel="stylesheet" href="../resources/font/ratchicons.woff"> -->
     <link rel="stylesheet" href="../resources/css/city.css">
     <script type='text/javascript' src='../resources/js/city-data.js' charset='utf-8'></script>
 </head>
@@ -29,39 +30,83 @@
                 </div>
             </div>
             <div class="content">
-                <div class="city-item">
-                    <div class="title-box">根据您的定位推荐</div>
-                    <div class="row">
-                        <div class="col-25"><p><a href="#" class="button">深圳</a></p></div>
-                    </div>
-                    <div class="title-box">历史记录</div>
-                    <div class="row">
-                        <div class="col-25"><p><a href="#" class="button button-blue">深圳</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">广州</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">长沙</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">张家界</a></p></div>
-                    </div>
-                    <div class="title-box">热门城市</div>
-                    <div class="row">
-                        <div class="col-25"><p><a href="#" class="button button-dark">北京</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">上海</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">南京</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">杭州</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">苏州</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">天津</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-blue">深圳</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">无锡</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">成都</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">重庆</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">长沙</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">武汉</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">郑州</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">广州</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">太原</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">石家庄</a></p></div>
-                    </div>
-                </div>
                 <div class="container" style="z-index: 9999; ">
+                    <!-- 推荐/记录/热门 -->
+                    <div class="city-item">
+                        <div class="title-box">根据您的定位推荐</div>
+                        <div class="row">
+                            <div class="col-25">
+                                <p><a href="#" class="button">深圳</a></p>
+                            </div>
+                        </div>
+                        <div class="title-box" id="history">历史记录</div>
+                        <div class="row">
+                            <div class="col-25">
+                                <p><a href="#" class="button button-blue">深圳</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">广州</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">长沙</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">张家界</a></p>
+                            </div>
+                        </div>
+                        <div class="title-box" id="hot">热门城市</div>
+                        <div class="row">
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">北京</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">上海</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">南京</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">杭州</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">苏州</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">天津</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-blue">深圳</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">无锡</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">成都</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">重庆</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">长沙</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">武汉</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">郑州</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">广州</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">太原</a></p>
+                            </div>
+                            <div class="col-25">
+                                <p><a href="#" class="button button-dark">石家庄</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 城市列表 -->
                     <div class="city">
                         <div class="city-list"><span class="city-letter" id="A1">A</span>
                             <p data-id="210300">鞍山市</p>
@@ -496,48 +541,61 @@
                         </div>
                     </div>
                     <!-- 字母列表 -->
-                    <div class="letter">
+                    <div class="letter disable-router">
                         <ul>
-                            <li class="small"><a href="javascript:;">推荐</a></li>
-                            <li class="small"><a href="javascript:;">历史</a></li>
-                            <li class="small"><a href="javascript:;">热门</a></li>
-                            <li><a href="javascript:;">A</a></li>
-                            <li><a href="javascript:;">B</a></li>
-                            <li><a href="javascript:;">C</a></li>
-                            <li><a href="javascript:;">D</a></li>
-                            <li><a href="javascript:;">E</a></li>
-                            <li><a href="javascript:;">F</a></li>
-                            <li><a href="javascript:;">G</a></li>
-                            <li><a href="javascript:;">H</a></li>
-                            <li><a href="javascript:;">J</a></li>
-                            <li><a href="javascript:;">K</a></li>
-                            <li><a href="javascript:;">L</a></li>
-                            <li><a href="javascript:;">M</a></li>
-                            <li><a href="javascript:;">N</a></li>
-                            <li><a href="javascript:;">P</a></li>
-                            <li><a href="javascript:;">Q</a></li>
-                            <li><a href="javascript:;">R</a></li>
-                            <li><a href="javascript:;">S</a></li>
-                            <li><a href="javascript:;">T</a></li>
-                            <li><a href="javascript:;">W</a></li>
-                            <li><a href="javascript:;">X</a></li>
-                            <li><a href="javascript:;">Y</a></li>
-                            <li><a href="javascript:;">Z</a></li>
+                            <li class="small"><a href="#">推荐</a></li>
+                            <li class="small"><a href="#history">历史</a></li>
+                            <li class="small"><a href="#hot">热门</a></li>
+                            <li><a href="#A1">A</a></li>
+                            <li><a href="#B1">B</a></li>
+                            <li><a href="#C1">C</a></li>
+                            <li><a href="#D1">D</a></li>
+                            <li><a href="#E1">E</a></li>
+                            <li><a href="#F1">F</a></li>
+                            <li><a href="#G1">G</a></li>
+                            <li><a href="#H1">H</a></li>
+                            <li><a href="#J1">J</a></li>
+                            <li><a href="#K1">K</a></li>
+                            <li><a href="#L1">L</a></li>
+                            <li><a href="#M1">M</a></li>
+                            <li><a href="#N1">N</a></li>
+                            <li><a href="#P1">P</a></li>
+                            <li><a href="#Q1">Q</a></li>
+                            <li><a href="#R1">R</a></li>
+                            <li><a href="#S1">S</a></li>
+                            <li><a href="#T1">T</a></li>
+                            <li><a href="#W1">W</a></li>
+                            <li><a href="#X1">X</a></li>
+                            <li><a href="#Y1">Y</a></li>
+                            <li><a href="#Z1">Z</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script type='text/javascript' src='../lib/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='../lib/zepto.js' charset='utf-8'></script>
+    <script type="text/javascript">
+    // 过滤sui路由
+    $.config = {
+        routerFilter: function($link) {
+            if ($link.is('.disable-router li a')) {
+                return false;
+            }
+            return true;
+        }
+    };
+    </script>
     <script type='text/javascript' src='../lib/sm.min.js' charset='utf-8'></script>
     <script type="text/javascript">
-    //加载城市事件
-    // $('body').on('click', '#zone_ids,#gr_zone_ids', function() {
-    //     var zid = $(this).attr('id');
-    //     $('.container').show();
+    
 
-    // });
+    //加载城市事件
+    $('body').on('click', '#zone_ids,#gr_zone_ids', function() {
+        var zid = $(this).attr('id');
+        // $('.container').show();
+
+    });
     //选择城市 start
     $('body').on('click', '.city-list p', function() {
         var type = $('.container').data('type');
@@ -545,10 +603,13 @@
         $('#gr_zone_ids').html($(this).html()).attr('data-id', $(this).attr('data-id'));
         $('.container').hide();
     });
-    $('body').on('click', '.letter a', function() {
-        var s = $(this).html();
-        $(window).scrollTop($('#' + s + '1').offset().top);
-    });
+    // $('body').on('click', '.letter a', function() {
+    //     var s = $(this).html();
+    //     var top = $('#' + s + '1').offset().top;
+    //     console.log($('#' + s + '1').offset().top);
+    //     $(window).scrollTop(top);
+    // });
+
     </script>
 </body>
 
