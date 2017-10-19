@@ -33,9 +33,34 @@
 	background-size: 100% 100%;
 }
 
+/*底部nav图标*/
+.bar-tab{
+	background-color: #fff;
+	z-index: 999;
+}
+
+.icon-leave{
+	width: 1.2rem;
+	background: url(../images/icon/nav_leave.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.icon-duration{
+	width: 1.2rem;
+	background: url(../images/icon/nav_duration.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.icon-price{
+	width: 1.2rem;
+	background: url(../images/icon/nav_price.png) no-repeat;
+	background-size: 100% 100%;
+}
+
 .content-block{
 	margin: .5rem 0;
 	padding: 0;
+	padding-bottom: 2.5rem;
 }
 
 .data-box{
