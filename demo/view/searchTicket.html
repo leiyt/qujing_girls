@@ -10,21 +10,25 @@
     <link rel="stylesheet" href="../resources/css/ticket.css">
 </head>
 
-<body class="bg-color-0">
+<body>
     <div class="page">
         <header class="bar bar-nav bg-color-green">
             <a class="button button-link button-nav pull-left" href="back" data-transition='slide-out'>
 		    	<span class="icon back"></span>
 		  	</a>
             <h3 class="title text-color-7"><span>深圳北</span>&nbsp;<span class="icon icon-change"></span>&nbsp;<span>张家界西</span></h3>
+            <span class="button button-nav pull-right" href="#" data-transition='slide-out' id="filteClick">筛选</span>
         </header>
         <div class="bar bar-header-secondary">
             <div class="row data-box" id="data-box">
                 <div class="col-20 color-blue">前一天</div>
-                <div class="col-60 tac">
+                <div class="col-60 position-r">
+                    <input type="text" id="data-input" value="7月10日">
                     <span class="icon icon-data"></span>
-                    <span class="today">7月10日</span>&nbsp;&nbsp;今天
-                    <span class="icon icon-arrow"></span>
+                    <div class="data-right">
+                    	<span>今天</span>
+	                    <span class="icon icon-arrow"></span>
+                    </div>
                 </div>
                 <div class="col-20 color-blue">后一天</div>
             </div>
@@ -158,7 +162,7 @@
         </div>
         <nav class="bar bar-tab">
             <a class="tab-item external active" href="#">
-		    <span class="icon icon-leave"></span>
+		    <span class="icon icon-leave active"></span>
 		    <span class="tab-label">出发</span>
 		  </a>
             <a class="tab-item external" href="#">
@@ -174,7 +178,7 @@
     </div>
     <script type='text/javascript' src='../lib/zepto.min.js' charset='utf-8'></script>
     <script type='text/javascript' src='../lib/sm.min.js' charset='utf-8'></script>
-    <!-- <script type='text/javascript' src='../resources/js/index.js' charset='utf-8'></script> -->
+    <script type='text/javascript' src='../resources/js/ticket.js' charset="UTF-8"></script>
 </body>
 
 </html>

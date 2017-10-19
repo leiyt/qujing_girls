@@ -1,6 +1,24 @@
 @charset "utf-8";
 /*余票查询样式*/
-
+.position-r{
+	position: relative;
+}
+.data-right{
+	float: right;
+	padding-right: 1.2rem;
+}
+#data-input{
+	position: absolute;
+	left: 0;
+	top: 12px;
+	width: 100px;
+	padding-left: 20px;
+	border: none;
+}
+#filteClick{
+	border-color: transparent;
+	color: #fff;
+}
 .bar-nav h3{
 	color: #fff;
 }
@@ -56,6 +74,22 @@
 	background: url(../images/icon/nav_price.png) no-repeat;
 	background-size: 100% 100%;
 }
+
+.icon-leave:hover,.active.icon-leave{
+	background: url(../images/icon/nav_leave1.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.icon-duration:hover,.active.icon-duration{
+	background: url(../images/icon/nav_duration1.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.icon-price:hover,.active.icon-price{
+	background: url(../images/icon/nav_price1.png) no-repeat;
+	background-size: 100% 100%;
+}
+/*-------end ----*/
 
 .content-block{
 	margin: .5rem 0;
@@ -130,9 +164,9 @@
 	display: inline-block;
 	padding: 3px;
 	border-radius: 3px;
-	width: 62px;
-	-webkit-transform: scale(.7,.7);
-	transform: scale(.7,.7);
+	width: 66px;
+	-webkit-transform: scale(.8,.8);
+	transform: scale(.8,.8);
 	color: #fff;
 	white-space: nowrap;
 }
@@ -151,6 +185,10 @@
 
 .card-footer .row{
 	width: 100%;
+}
+
+.card-footer .col-25{
+	white-space: nowrap;
 }
 
 .card-footer .icon{
@@ -179,6 +217,12 @@
 }
 .tac{
 	text-align: center;
+}
+.tacr{
+	text-align: right;
+}
+.float-r{
+	float: right;
 }
 .bg-color-green{
 	background-color: #1FCCA9;
