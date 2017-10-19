@@ -1,0 +1,175 @@
+@charset "utf-8";
+/*余票查询样式*/
+
+.bar-nav h3{
+	color: #fff;
+}
+.back{
+	width: 1rem;
+	height: 1rem;
+	background: url(../images/icon/left.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.icon-change{
+	width: 1rem;
+	height: 1rem;
+	background: url(../images/icon/change.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.icon-data{
+	width: 1rem;
+	height: 1rem;
+	background: url(../images/icon/data.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.icon-arrow{
+	padding: 0;
+	width: .8rem;
+	height: .8rem;
+	background: url(../images/icon/top.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.content-block{
+	margin: .5rem 0;
+	padding: 0;
+}
+
+.data-box{
+	font-size: .7rem;
+	height: 2rem;
+	line-height: 2rem;
+}
+
+.card{	
+	color: #333;
+}
+
+.name{
+	text-align: center;
+	color: #333;
+	font-size: .6rem;
+}
+
+.time{
+	color: #1FCCA9;
+	text-align: center;
+}
+
+.duration{
+	padding-top: 15px;
+}
+
+.flag{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 15px;
+	text-align: center;
+	border: 3px solid #1FCCA9;
+	font-size: 12px;
+	border-radius: 50%;
+	background-color: #1FCCA9;
+	color: #fff;
+	-webkit-transform: scale(.8,.8);
+	transform: scale(.8,.8);
+}
+
+.line-box{
+	position: relative;
+	margin-top: -5px;
+}
+
+.line-box::before{
+	display: block;
+	content: '';
+	width: 22px;
+	height: 1px;
+	background-color: #1FCCA9;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.box-top,.box-bottom{
+	font-size: .5rem;
+}
+
+.detail .des{
+	font-size: .5rem;
+	display: inline-block;
+	padding: 3px;
+	border-radius: 3px;
+	width: 62px;
+	-webkit-transform: scale(.7,.7);
+	transform: scale(.7,.7);
+	color: #fff;
+	white-space: nowrap;
+}
+
+.card-footer{
+	font-size: .6rem;
+	text-align: center;
+}
+
+.card-footer::before{
+	width: 98%;
+	left: 3px;
+	border-top: 1px dashed #ccc;
+	background-color: transparent;
+}
+
+.card-footer .row{
+	width: 100%;
+}
+
+.card-footer .icon{
+	width: 10px;
+	height: 10px;
+	background-color: #eee;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: -5px;
+}
+
+.right-icon{
+	right: -5px;
+}
+.left-icon{
+	left: -5px;
+}
+
+.card-footer .color-light{
+	color: #a9a9a9;
+}
+
+.color-blue {
+	color: #1FCCA9;
+}
+.tac{
+	text-align: center;
+}
+.bg-color-green{
+	background-color: #1FCCA9;
+}
+.bg-color-red{
+	background-color: #F24456;
+}
+.bg-color-gray{
+	background-color: #9C9C9C;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.color-gray{
+	color: #666;
+}
