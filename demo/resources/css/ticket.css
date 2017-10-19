@@ -111,7 +111,7 @@
 .name{
 	text-align: center;
 	color: #333;
-	font-size: .7rem;
+	font-size: .75rem;
 }
 
 .time{
@@ -173,7 +173,7 @@
 }
 
 .card-footer{
-	font-size: .7rem;
+	font-size: .75rem;
 	text-align: center;
 }
 
