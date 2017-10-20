@@ -19,7 +19,7 @@
             </a>
             <h3 class="title text-color-7"><span>深圳北</span>&nbsp;<span class="icon icon-change"></span>&nbsp;<span>张家界西</span></h3>
             <span class="button button-nav pull-right" href="#" data-transition='slide-out' id="filteClick">
-                <a href="#" class="open-filter">筛选</a>
+                <a href="#" class="open-popup open-filter">筛选</a>
             </span>
         </header>
         <div class="bar bar-header-secondary">
@@ -170,13 +170,66 @@
             </div>
         </div>
         <!-- popup -->
-        <div class="popup popup-filter">
+        <div class="popup open-popup">
             <div class="content-block">
-                <p>筛选</p>
-                <p><a href="#" class="close-popup">Close popup</a></p>
-                <p>Lorem ipsum dolor ...</p>
+                <div class="pop-header">
+                    <div class="row">
+                        <div class="col-33 tal"><a href="#" class="close-popup">取消</a></div>
+                        <div class="col-33 tac">筛选</div>
+                        <div class="col-33 tar">确认</div>
+                    </div>
+                </div>
+                <ul class="fliter-box">
+                    <li>
+                        <div class="row type-name">
+                            <div class="col-50">指定到达车站</div>
+                            <!-- <div class="col-50 color-orange tar">不限</div> -->
+                        </div>
+                        <div class="row type-checkbox">
+                            <div class="col-50"><input type="checkbox">张家界西站</div>
+                            <div class="col-50"><input type="checkbox">张家界西站</div>
+                            <div class="col-50"><input type="checkbox">张家界西站</div>
+                            <div class="col-50"><input type="checkbox">张家界西站</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row type-name">
+                            <div class="col-50">车次类型</div>
+                            <div class="col-50 color-orange tar">不限</div>
+                        </div>
+                        <div class="row type-checkbox">
+                            <div class="col-50"><input type="checkbox">高铁&nbsp;(G/D)</div>
+                            <div class="col-50"><input type="checkbox">高铁&nbsp;(G/D)</div>
+                            <div class="col-50"><input type="checkbox">普铁&nbsp;(Z/K/T)</div>
+                            <div class="col-50"><input type="checkbox">其他&nbsp;(L/Y)</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row type-name">
+                            <div class="col-50">发车时间</div>
+                            <div class="col-50 color-orange tar">不限</div>
+                        </div>
+                        <div class="row type-checkbox">
+                            <div class="col-50"><input type="checkbox">0点-6点</div>
+                            <div class="col-50"><input type="checkbox">6点-12点</div>
+                            <div class="col-50"><input type="checkbox">12点-18点</div>
+                            <div class="col-50"><input type="checkbox">18点-24点</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row type-name">
+                            <div class="col-50">其他</div>
+                            <div class="col-50 color-orange tar">不限</div>
+                        </div>
+                        <div class="row type-checkbox">
+                            <div class="col-50"><input type="checkbox">只看有票</div>
+                            <div class="col-50"><input type="checkbox">只看直达</div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
+            
         <!-- 底部nav -->
         <nav class="bar bar-tab">
             <a class="tab-item external active" href="#">

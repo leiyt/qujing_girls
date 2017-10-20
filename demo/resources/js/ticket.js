@@ -5,6 +5,6 @@ $("#data-input").calendar({
     inputReadOnly: true
 });
 
-$(document).on('click','.open-filter', function () {
-  $.popup('.popup-filter');
-});
+// $(document).on('click','.open-filter', function () {
+//   $.popup('.popup-filter');
+// });

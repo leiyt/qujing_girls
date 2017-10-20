@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-
+ul,li{
+    list-style: none;
+}
 /*余票查询样式*/
 
 .today {
@@ -15,6 +17,8 @@
 
 #filteClick {
     border-color: transparent;
+}
+#filteClick a{
     color: #fff;
 }
 
@@ -242,6 +246,14 @@
     text-align: center;
 }
 
+.tal {
+    text-align: left;
+}
+
+.tar {
+    text-align: right;
+}
+
 .tacr {
     text-align: right;
 }
@@ -272,4 +284,60 @@
 
 .color-gray {
     color: #666;
+}
+.color-orange{
+    color: #FF8524;
+}
+
+
+/* popup重置样式 */
+.popup-overlay{
+    z-index: 1020;
+}
+.popup{
+    height: auto;
+    top: auto;
+    bottom: 0;
+    background-color: #eee;
+    overflow: hidden;
+}
+.pop-header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .5rem;
+    background-color: #505C71;
+    font-size: .7rem;
+    color: #fff;
+}
+.pop-header a{
+    color: #fff;
+}
+.popup .content-block{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.fliter-box{
+    padding: 2rem 0 1rem 0;
+    /*margin: .5rem 0;*/
+    max-height: 300px;
+    overflow: scroll;
+}
+.fliter-box li{
+    padding: 0 .5rem;
+}
+.type-name{
+    font-size: .6rem;
+    line-height: 1.5rem;
+}
+.type-checkbox{
+    background-color: #fff;
+    padding: .5rem;
+    font-size: .7rem;
+    line-height: 1.5rem;
+}
+
+.type-checkbox input[type=checkbox]{
+    border-color: #1FCCA9;
 }
