@@ -4,3 +4,7 @@ $("#data-input").calendar({
     dateFormat: 'mm月dd日',
     inputReadOnly: true
 });
+
+$(document).on('click','.open-filter', function () {
+  $.popup('.popup-filter');
+});
