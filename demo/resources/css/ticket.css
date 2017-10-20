@@ -148,7 +148,7 @@
 .line-box::before{
 	display: block;
 	content: '';
-	width: 22px;
+	width: 1.5rem;
 	height: 1px;
 	background-color: #1FCCA9;
 	position: absolute;
@@ -156,6 +156,12 @@
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 320px) {
+    .line-box::before {
+        width: 20px;
+    }
 }
 
 .box-top,.box-bottom{
