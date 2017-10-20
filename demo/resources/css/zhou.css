@@ -1,241 +1,98 @@
-
-.bar .button-link {
-    top: 0;
-    padding: 0;
-    font-size: .8rem;
-    line-height: 2.2rem;
-    height: 2.2rem;
-    color: #fff;
-    border: 0;
-}
-.img-left{ width: 1rem;
-    height: 1rem;
-    background: url(../images/icon/left.png) no-repeat;
-    background-size: 100% 100%; }
-.text-color-1{color:#1FCCA9}
-.text-color-2{color:#F2495A}
-.text-color-3{color:#FFAA00}
-.text-color-4{color:#1C1C1C}
-.text-color-5{color:#9C9C9C}
-.text-color-6{color:#CCCCCC}
-.text-color-7{color:#fff}
-.text-font-weight{ font-weight: bold }
-.text-center{ text-align:center }
-.text-right{ text-align:right }
-.bg-color-0{background: #edf1fa !important;}
-.bg-color-1{background:#1FCCA9 !important;}
-.bg-color-2{background:#F2495A !important}
-.bg-color-3{background:#FFAA00 !important}
-.bg-color-4{background:#1C1C1C !important}
-.bg-color-5{background:#9C9C9C !important}
-.bg-color-6{background:#CCCCCC !important}
-.bg-color-7{background:#fff !important}
-.font-size-10 {
- 	font-size: 0.4rem !important;
- }
-.font-size-12 {
- 	font-size: 0.6rem !important;
- }
- .font-size-14 {
- 	font-size: 0.7rem !important;
- }
- .font-size-16 {
- 	font-size: 0.8rem !important;
- }
- .font-size-18 {
- 	font-size: 0.9rem !important;
- }
- .font-size-20 {
- 	font-size: 1rem !important;
- }
-
- .padded-0 {
- 	padding: 0 !important;
- }
- .padded-5 {
- 	padding: 0.25rem !important;
- }
- .padded-10 {
- 	padding: 0.5rem !important;
- }
- .padded-15 {
- 	padding: 0.75rem !important;
- }
- .padded-t-10 {
- 	padding-top: 0.5rem !important;
- }
- .padded-t-15 {
- 	padding-top: 0.75rem !important;
- }
- .padded-b-0 {
- 	padding-bottom: 0 !important;
- }
- .padded-b-5 {
- 	padding-bottom: 0.25rem !important;
- }
- .padded-b-10 {
- 	padding-bottom: 0.5rem !important;
- }
- .padded-b-15 {
- 	padding-bottom: 0.75rem !important;
- }
- .padded-l-0 {
- 	padding-left: 0 !important;
- }
- .padded-l-5 {
- 	padding-left: 0.25rem !important;
- }
- .padded-l-10 {
- 	padding-left: 0.5rem !important;
- }
- .padded-l-15 {
- 	padding-left: 0.75rem !important;
- }
- .padded-r-0 {
- 	padding-right: 0 !important;
- }
- .padded-r-5 {
- 	padding-right: 0.25rem !important;
- }
- .padded-r-10 {
- 	padding-right: 0.5rem !important;
- }
- .padded-r-15 {
- 	padding-right: 0.75rem !important;
- }
- .margin-0 {
- 	margin: 0 !important;
- }
- .margin-5 {
- 	margin: 0.25rem !important;
- }
- .margin-10 {
- 	margin: 0.5rem !important;
- }
- .margin-15 {
- 	margin: 0.75rem !important;
- }
- .margin-t-0 {
- 	margin-top: 0.25rem !important;
- }
- .margin-t-5 {
- 	margin-top: 0 !important;
- }
- .margin-t-10 {
- 	margin-top: 0.5rem !important;
- }
- .margin-t-15 {
- 	margin-top: 0.75rem !important;
- }
- .margin-b-0 {
- 	margin-bottom: 0 !important;
- }
- .margin-b-5 {
- 	margin-bottom: 0.25rem !important;
- }
- .margin-b-10 {
- 	margin-bottom: 0.5rem !important;
- }
- .margin-b-15 {
- 	margin-bottom: 0.75rem !important;
- }
- .margin-l-0 {
- 	margin-left: 0 !important;
- }
- .margin-l-5 {
- 	margin-left: 0.25rem !important;
- }
- .margin-l-10 {
- 	margin-left: 0.5rem !important;
- }
- .margin-l-15 {
- 	margin-left: 0.75rem !important;
- }
- .margin-r-0 {
- 	margin-right: 0 !important;
- }
- .margin-r-5 {
- 	margin-right: 0.25rem !important;
- }
- .margin-r-10 {
- 	margin-right: 0.5rem !important;
- }
- .margin-r-15 {
- 	margin-right: 0.75rem !important;
- }
-
- img.img-round {
-    border-radius: 50%;
-}
- img.img-center {
- 	margin:0 auto;
- 	width: 65%;
-    height: 65%;
-   
-}
-.text-center{ text-align: center; }
-
-.buttons-tab .button.active {
-    color:#1FCCA9 !important;
-    border-color: #1FCCA9 !important;
-    z-index: 100;
-}
-
-.order-badge {
-   display: inline-block;
-    
-   
-    text-align: center;
-   width:20px;
-    height:20px;
-    padding:2px; 
-    line-height: 18px;
-   
-    font-size: 0.4rem;
-    color: #ffffff;
-    background-color: #1FCCA9;
-    border-radius:50%;
-  
-   
-    z-index: 99;
-}
-.nav_li{height: 1.2rem;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    padding-top: 0;
-    padding-bottom: 0;}
-
-  .nav_li img  {height:100%; margin:4px auto; }
-  .ticket_img{ width: 4.5rem;  text-align: center;  overflow: hidden; margin:0 auto;}
-  .ticket_title{ width: 100%;  text-align: center;  }
-  .ticket_img img{ width: 100%; height: 100%; }
-
-  .icon-cancle{
-  position: absolute;
-  top: .6rem;
-  right: .6rem;
-  width: .9rem;
-  height: .9rem;
-  border-radius: 50%;
-  background: url(../images/icon/cancle.png) no-repeat;
+/*字体颜色*/
+.text-color-1 {color: #1FCCA9 !important;}
+.text-color-2 {color: #F2495A !important;}
+.text-color-3 {color: #FFAA00 !important;}
+.text-color-4 {color: #1C1C1C !important;}
+.text-color-5 {color: #9C9C9C !important;}
+.text-color-6 {color: #CCCCCC !important;}
+.text-color-7 {color: #ffffff !important;}
+/*字体大小*/
+.font-size-10 {font-size: 0.4rem !important;}
+.font-size-12 {font-size: 0.6rem !important;}
+.font-size-14 {font-size: 0.7rem !important;}
+.font-size-16 {font-size: 0.8rem !important;}
+.font-size-18 {font-size: 0.9rem !important;}
+.font-size-20 {font-size: 1rem !important;}
+/*文字排列方式*/
+.text-font-weight {font-weight: bold !important;}
+.text-center {text-align: center !important;}
+.text-right {text-align: right !important;}
+/*背景颜色*/
+.bg-color-0 {background: #edf1fa !important;}
+.bg-color-1 {background: #1FCCA9 !important;}
+.bg-color-2 {background: #F2495A !important}
+.bg-color-3 {background: #FFAA00 !important}
+.bg-color-4 {background: #1C1C1C !important}
+.bg-color-5 {background: #9C9C9C !important}
+.bg-color-6 {background: #CCCCCC !important}
+.bg-color-7 {background: #ffffff !important}
+/*边距控制*/
+.padded-0 {padding: 0 !important;}
+.padded-5 {padding: 0.25rem !important;}
+.padded-10 {padding: 0.5rem !important;}
+.padded-15 {padding: 0.75rem !important;}
+.padded-t-10 {padding-top: 0.5rem !important;}
+.padded-t-15 {padding-top: 0.75rem !important;}
+.padded-b-0 {padding-bottom: 0 !important;}
+.padded-b-5 {padding-bottom: 0.25rem !important;}
+.padded-b-10 {padding-bottom: 0.5rem !important;}
+.padded-b-15 {padding-bottom: 0.75rem !important;}
+.padded-l-0 {padding-left: 0 !important;}
+.padded-l-5 {padding-left: 0.25rem !important;}
+.padded-l-10 {padding-left: 0.5rem !important;}
+.padded-l-15 {padding-left: 0.75rem !important;}
+.padded-r-0 {padding-right: 0 !important;}
+.padded-r-5 {padding-right: 0.25rem !important;}
+.padded-r-10 {padding-right: 0.5rem !important;}
+.padded-r-15 {padding-right: 0.75rem !important;}
+.margin-0 {margin: 0 !important;}
+.margin-5 {margin: 0.25rem !important;}
+.margin-10 {margin: 0.5rem !important;}
+.margin-15 {margin: 0.75rem !important;}
+.margin-t-0 {margin-top: 0.25rem !important;}
+.margin-t-5 {margin-top: 0 !important;}
+.margin-t-10 {margin-top: 0.5rem !important;}
+.margin-t-15 {margin-top: 0.75rem !important;}
+.margin-b-0 {margin-bottom: 0 !important;}
+.margin-b-5 {margin-bottom: 0.25rem !important;}
+.margin-b-10 {margin-bottom: 0.5rem !important;}
+.margin-b-15 {margin-bottom: 0.75rem !important;}
+.margin-l-0 {margin-left: 0 !important;}
+.margin-l-5 {margin-left: 0.25rem !important;}
+.margin-l-10 { margin-left: 0.5rem !important;}
+.margin-l-15 {margin-left: 0.75rem !important;}
+.margin-r-0 {margin-right: 0 !important;}
+.margin-r-5 {margin-right: 0.25rem !important;}
+.margin-r-10 { margin-right: 0.5rem !important;}
+.margin-r-15 {margin-right: 0.75rem !important;}
+/*左右箭头图标*/
+.img-left {
+  width: 1rem;
+  height: 1rem;
+  background: url(../images/icon/left.png) no-repeat;
   background-size: 100% 100%;
-  background-color: #cecece;
-  border: 3px solid #cecece;
 }
-#tips{   width: 100%; height: 80px; }
-#tips .tips_left{ width: 15%;float:left; }
-#tips .tips_left img{ width: 90%; height: 90%; line-height: 100% }
-
-#tips .tips_content{ width: 80%;float:left;}
-
-#tips .tips_right{ width: 5%;float:right;}
-
-
+.img-right {
+  width: 1rem;
+  height: 1rem;
+  background: url(../images/icon/right.png) no-repeat;
+  background-size: 100% 100%;
+}
+/*按钮样式*/
+p .button {
+  background: #1FCCA9;
+  border-color: transparent;
+  color: #fff;
+  height: 2.2rem;
+  line-height: 2.2rem;
+ font-size: .8rem;
+}
+/*单选复选按钮颜色样式控制*/
 label.label-checkbox i.icon-form-checkbox {
   width: 0.6rem;
   height: 0.6rem;
   position: relative;
-  border-radius:0rem;
+  border-radius: 0rem;
   border: 1px solid #c7c7cc;
   box-sizing: border-box;
 }
@@ -249,39 +106,113 @@ label.label-checkbox i.icon-form-checkbox:after {
   width: 0.6rem;
   height: 0.45rem;
 }
-
-label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-checkbox,
-label.label-checkbox input[type="radio"]:checked + .item-media i.icon-form-checkbox {
+label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-checkbox, label.label-checkbox input[type="radio"]:checked + .item-media i.icon-form-checkbox {
   border: none;
   background-color: #1FCCA9;
 }
-
-
- .rese_bg{
+/*图片样式控制*/
+img.img-round {border-radius: 50%; display: block;}
+img.img-center {margin: 0 auto  !important;}
+.img_size img{ width: 65% !important; height: 65% !important; }
+.img_size4 img{ width: 40% !important; }
+/*圆形图标*/
+.order-badge {
+  display: inline-block;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  line-height: 18px;
+  font-size: 0.4rem;
+  color: #ffffff;
+  background-color: #1FCCA9;
+  border-radius: 50%;
+  z-index: 99;
+}
+.buttons-tab .button.active {
+  color: #1FCCA9 !important;
+  border-color: #1FCCA9 !important;
+  z-index: 100;
+}
+/*底部菜单*/
+.nav_li {
+  height: 1.2rem;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.nav_li img {
+  height: 100%;
+  margin: 4px auto;
+}
+/*支付成功模块*/
+.ticket_img {
+  width: 4.5rem;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.ticket_title {
+  width: 100%;
+  text-align: center;
+}
+.ticket_img img {
+  width: 100%;
+  height: 100%;
+}
+/*车票预定模块*/
+.rese_bg {
   width: 100%;
   height: 7.5rem;
   text-align: center;
   overflow: hidden;
   background: url(../images/icons/head_bg.png) no-repeat;
-  background-size:100%;
+  background-size: 100%;
 }
- .rese_bg .title{
+.rese_bg .title {
   width: 100%;
   height: 2.2rem;
   line-height: 2.2rem;
-  color:#fff; font-weight: bold;
-
+  color: #fff;
+  font-weight: bold;
 }
-p .button{background: #1FCCA9;
-    border-color: transparent;
-    color: #fff;
-    height: 2.2rem;
-    line-height: 2.2rem;
-    font-size: .8rem;}
-   .card-footer .row{
+#tips {
   width: 100%;
-} 
-.card-footer .icon{
+  height: 80px;
+}
+#tips .tips_left {
+  width: 15%;
+  float: left;
+}
+#tips .tips_left img {
+  width: 90%;
+  height: 90%;
+  line-height: 100%
+}
+#tips .tips_content {
+  width: 80%;
+  float: left;
+}
+#tips .tips_right {
+  width: 5%;
+  float: right;
+}
+.icon-cancle {
+position: absolute;
+ top: .6rem;
+ right: .6rem;
+ width: .9rem;
+ height: .9rem;
+  border-radius: 50%;
+  background: url(../images/icon/cancle.png) no-repeat;
+  background-size: 100% 100%;
+  background-color: #cecece;
+  border: 3px solid #cecece;
+}
+/*订单中心模块*/
+.card-footer .row {width: 100%;}
+.card-footer .icon {
   width: 10px;
   height: 10px;
   background-color: #eee;
@@ -290,10 +221,24 @@ p .button{background: #1FCCA9;
   position: absolute;
   top: -5px;
 }
+.right-icon { right: -5px;}
+.left-icon {left: -5px;}
 
-.right-icon{
-  right: -5px;
-}
-.left-icon{
-  left: -5px;
-}
+
+/*底部nav图标*/
+.bar-tab .tab-item.active, .bar-tab .tab-item:active {color: #1FCCA9;}
+.icon-reservation,.icon-service,.icon-order,.icon-personal{  width:1.2rem;background-size: 100% 100%;  }
+.icon-reservation{background: url(../images/icon/train.png) no-repeat center;}
+.icon-service{ background: url(../images/icon/case.png) no-repeat center;}
+.icon-order{background: url(../images/icon/ordernav.png) no-repeat center;}
+.icon-personal{background: url(../images/icon/personal.png) no-repeat center;}
+.icon-reservation:hover,.active.icon-reservation,
+.icon-service:hover,.active.icon-service,
+.icon-order:hover,.active.icon-order,
+.icon-personal:hover,.active.icon-personal{ width:1.2rem; background-size: 100% 100%; color:#1FCCA9;}
+.icon-reservation:hover,.active.icon-reservation{background: url(../images/icon/train1.png) no-repeat  center;}
+.icon-service:hover,.active.icon-service{background: url(../images/icon/case1.png) no-repeat  center;}
+.icon-order:hover,.active.icon-order{background: url(../images/icon/ordernav1.png) no-repeat  center;}
+.icon-personal:hover,.active.icon-personal{background: url(../images/icon/personal1.png) no-repeat  center;}
+
+/*-------end ----*/
