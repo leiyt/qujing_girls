@@ -134,18 +134,7 @@ img.img-center {margin: 0 auto  !important;}
   border-color: #1FCCA9 !important;
   z-index: 100;
 }
-/*底部菜单*/
-.nav_li {
-  height: 1.2rem;
-  font-size: 1.2rem;
-  line-height: 1.2rem;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.nav_li img {
-  height: 100%;
-  margin: 4px auto;
-}
+
 /*支付成功模块*/
 .ticket_img {
   width: 4.5rem;
@@ -240,5 +229,3 @@ position: absolute;
 .icon-service:hover,.active.icon-service{background: url(../images/icon/case1.png) no-repeat  center;}
 .icon-order:hover,.active.icon-order{background: url(../images/icon/ordernav1.png) no-repeat  center;}
 .icon-personal:hover,.active.icon-personal{background: url(../images/icon/personal1.png) no-repeat  center;}
-
-/*-------end ----*/
