@@ -107,7 +107,9 @@
 .card{	
 	color: #333;
 }
-
+.card-content-inner{
+	padding: .75rem .25rem;
+}
 .name{
 	text-align: center;
 	color: #333;
@@ -173,7 +175,8 @@
 }
 
 .card-footer{
-	font-size: .75rem;
+	padding: .5rem .25rem;
+	font-size: .65rem;
 	text-align: center;
 }
 
