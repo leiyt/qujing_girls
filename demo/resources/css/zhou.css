@@ -229,3 +229,5 @@ position: absolute;
 .icon-service:hover,.active.icon-service{background: url(../images/icon/case1.png) no-repeat  center;}
 .icon-order:hover,.active.icon-order{background: url(../images/icon/ordernav1.png) no-repeat  center;}
 .icon-personal:hover,.active.icon-personal{background: url(../images/icon/personal1.png) no-repeat  center;}
+
+.choose_ticket:hover{display: block; border:1px solid #1FCCA9;  border-radius: 5px; color: #1FCCA9;cursor: pointer;  }
