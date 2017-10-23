@@ -1,185 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>提交订单</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
-    <link rel="stylesheet" href="../lib/sm.min.css">
-    <link rel="stylesheet" href="../resources/css/ticket.css">
+<meta charset="UTF-8">
+<title>提交订单</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+<link rel="stylesheet" href="../lib/sm.min.css">
+<link rel="stylesheet" href="../resources/css/zhou.css">
 </head>
 
 <body>
-    <div class="page">
-        <header class="bar bar-nav bg-color-green">
-            <a class="button button-link button-nav pull-left" href="back" data-transition='slide-out'>
-		    	<span class="icon back"></span>
-		  	</a>
-            <h3 class="title text-color-7"><span>深圳北</span>&nbsp;<span class="icon icon-change"></span>&nbsp;<span>张家界西</span></h3>
-            <span class="button button-nav pull-right" href="#" data-transition='slide-out' id="filteClick">筛选</span>
-        </header>
-        <div data-toggle='date' />
-        <div class="bar bar-header-secondary">
-            <div class="row data-box" id="data-box">
-                <div class="col-20 color-blue">前一天</div>
-                <div class="col-60 position-r">
-                    <input type="text" id="data-input" value="7月10日">
-                    <span class="icon icon-data"></span>
-                    <div class="data-right">
-                    	<span>今天</span>
-	                    <span class="icon icon-arrow"></span>
-                    </div>
-                </div>
-                <div class="col-20 color-blue">后一天</div>
+<div class="page-group ">
+  <div class="page page-current">
+    <header class="bar bar-nav  bg-color-1"> <a class="button button-link button-nav pull-left" href="javascript:window.history.back(); "> <span class="icon img-left text-color-7"></span> </a>
+      <h1 class="title text-color-7 ">支付订单</h1>
+    </header>
+    <div class="content bg-color-0"  style=" margin-bottom : 2.5rem;">
+      <div class="content-block padded-0 margin-0">
+        <div class="card facebook-card margin-0">
+          <div class="card-content  ">
+            <div class="row text-center  padded-15 ">
+              <div class="col-25  choose_ticket">
+                <div class="grid-label text-color-4 font-size-14 text-font-weight ">商务座</div>
+                <div class="grid-label text-color-6 font-size-10 ">120张</div>
+                <div class="grid-label text-color-1 font-size-12 ">￥238.00</div>
+              </div>
+              <div class="col-25 choose_ticket">
+                <div class="grid-label text-color-4 font-size-14 text-font-weight ">一等座</div>
+                <div class="grid-label text-color-6 font-size-10 ">120张</div>
+                <div class="grid-label text-color-1 font-size-12 ">168.00</div>
+              </div>
+              <div class="col-25  choose_ticket">
+                <div class="grid-label text-color-4 font-size-14 text-font-weight ">二等座</div>
+                <div class="grid-label text-color-6 font-size-10 ">120张</div>
+                <div class="grid-label text-color-3 font-size-12 ">128.00</div>
+              </div>
+              <div class="col-25  choose_ticket">
+                <div class="grid-label text-color-4 font-size-14 text-font-weight ">无座</div>
+                <div class="grid-label text-color-6 font-size-10 ">120张</div>
+                <div class="grid-label text-color-3 font-size-12 ">￥98.00</div>
+              </div>
             </div>
-        </div>
-        <div class="content">
-            <div class="content-block">
-                <div class="card">
-                    <div class="card-content">
-                        <div class="card-content-inner row">
-                            <div class="col-25 no-gutter">
-                                <div class="name">深圳北</div>
-                                <div class="detail time">
-                                    7:52
-                                </div>
-                            </div>
-                            <div class="col-25 no-gutter tac">
-                                <div class="box-top color-gray">G250</div>
-                                <div class="box-bottom line-box">
-                                    <span class="flag float-left">始</span>
-                                    <span class="flag float-right">过</span>
-                                    <div class="duration color-gray">13:14</div>
-                                </div>
-                            </div>
-                            <div class="col-25 no-gutter">
-                                <div class="name">张家界西</div>
-                                <div class="detail time">
-                                    8:20
-                                </div>
-                            </div>
-                            <div class="col-25 no-gutter">
-                                <div class="name">￥<span class="price">150</span>起</div>
-                                <div class="detail tac">
-                                    <span class="des bg-color-red">仅剩252张</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <span class="icon left-icon"></span><span class="icon right-icon"></span>
-                        <div class="row">
-                            <div class="col-25 no-gutter color-light">商务座<span>0</span>张</div>
-                            <div class="col-25 no-gutter color-light">一等座<span>0</span>张</div>
-                            <div class="col-25 no-gutter">二等座<span>31</span>张</div>
-                            <div class="col-25 no-gutter">无座<span>221</span>张</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                        <div class="card-content-inner row">
-                            <div class="col-25 no-gutter">
-                                <div class="name">深圳北</div>
-                                <div class="detail time">
-                                    7:52
-                                </div>
-                            </div>
-                            <div class="col-25 no-gutter tac">
-                                <div class="box-top color-gray">G250</div>
-                                <div class="box-bottom line-box">
-                                    <span class="flag float-left">始</span>
-                                    <span class="flag float-right">过</span>
-                                    <div class="duration color-gray">13:14</div>
-                                </div>
-                            </div>
-                            <div class="col-25 no-gutter">
-                                <div class="name">张家界西</div>
-                                <div class="detail time">
-                                    8:20
-                                </div>
-                            </div>
-                            <div class="col-25 no-gutter">
-                                <div class="name">￥<span class="price">150</span>起</div>
-                                <div class="detail tac">
-                                    <span class="des bg-color-gray">无票</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <span class="icon left-icon"></span><span class="icon right-icon"></span>
-                        <div class="row">
-                            <div class="col-25 no-gutter color-light">商务座<span>0</span>张</div>
-                            <div class="col-25 no-gutter color-light">一等座<span>0</span>张</div>
-                            <div class="col-25 no-gutter color-light">二等座<span>0</span>张</div>
-                            <div class="col-25 no-gutter color-light">无座<span>0</span>张</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                        <div class="card-content-inner row">
-                            <div class="col-25 no-gutter">
-                                <div class="name">深圳北</div>
-                                <div class="detail time">
-                                    7:52
-                                </div>
-                            </div>
-                            <div class="col-25 no-gutter tac">
-                                <div class="box-top color-gray">G250</div>
-                                <div class="box-bottom line-box">
-                                    <span class="flag float-left">始</span>
-                                    <span class="flag float-right">过</span>
-                                    <div class="duration color-gray">13:14</div>
-                                </div>
-                            </div>
-                            <div class="col-25 no-gutter">
-                                <div class="name">张家界西</div>
-                                <div class="detail time">
-                                    8:20
-                                </div>
-                            </div>
-                            <div class="col-25 no-gutter">
-                                <div class="name">￥<span class="price">150</span>起</div>
-                                <div class="detail tac">
-                                    <span class="des bg-color-green">可抢票</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <span class="icon left-icon"></span><span class="icon right-icon"></span>
-                        <div class="row">
-                            <div class="col-25 no-gutter color-light">商务座<span>0</span>张</div>
-                            <div class="col-25 no-gutter color-light">一等座<span>0</span>张</div>
-                            <div class="col-25 no-gutter color-light">二等座<span>0</span>张</div>
-                            <div class="col-25 no-gutter color-light">无座<span>0</span>张</div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="card-footer bg-color-7"> <span class="icon left-icon"></span><span class="icon right-icon"></span>
+            <div class="row">
+              <div class="col-100 no-gutter font-size-12  text-color-5"> 二周&nbsp;&nbsp;&nbsp;
+                46000************6&nbsp;&nbsp;&nbsp;
+                成人票&nbsp;&nbsp;&nbsp;
+                一等座/<i class="text-color-3">￥168</i> <span class="icon-cancle"></span></div>
             </div>
+          </div>
         </div>
-        <nav class="bar bar-tab">
-            <a class="tab-item external active" href="#">
-		    <span class="icon icon-leave active"></span>
-		    <span class="tab-label">出发</span>
-		  </a>
-            <a class="tab-item external" href="#">
-		    <span class="icon icon-duration"></span>
-		    <span class="tab-label">耗时</span>
-		    <!-- <span class="badge">2</span> -->
-		  </a>
-            <a class="tab-item external" href="#">
-		    <span class="icon icon-price"></span>
-		    <span class="tab-label">价格</span>
-		  </a>
-        </nav>
+        <p><a href="" class="button margin-15 bg-color-7 text-color-1 text-font-weight font-size-14">添加乘客信息</a></p>
+      </div>
     </div>
-    <script type='text/javascript' src='../lib/zepto.min.js' charset='utf-8'></script>
-    <script type='text/javascript' src='../lib/sm.min.js' charset='utf-8'></script>
-    <script type='text/javascript' src='../resources/js/ticket.js' charset="utf-8"></script>
-</body>
+    <div class="bar bar-footer padded-0">
+      <p class=" margin-0"><a href="" class="button " style=" top:0px">提交订单</a></p>
+    </div>
+  </div>
+</div>
+</div>
+<script type='text/javascript' src='../lib/zepto.min.js' charset='utf-8'></script> 
+<script type='text/javascript' src='../lib/sm.js' charset='utf-8'></script> 
 
+</body>
 </html>
