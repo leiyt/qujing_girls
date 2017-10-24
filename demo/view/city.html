@@ -62,9 +62,13 @@
                     </div>
                 </div>
                 <div class="container" style="z-index: 9999; ">
-                    <div class="city">
-                        <div class="city-list"><span class="city-letter" id="A1">A</span>
-                            <p data-id="210300">鞍山市</p>
+                    <div class="city" id="city">
+                        {{each list as city}}
+                        <div class="city-list"><span class="city-letter" id="{{city.letter}}+'1'">{{city.letter}}</span>
+                            {{each city.citLlist as citLlist}}
+                            <p data-id="{{citLlist.id}}">{{citLlist.name}}</p>
+                            {{/each}}
+                            <!-- <p data-id="210300">鞍山市</p>
                             <p data-id="152900">阿拉善盟</p>
                             <p data-id="340800">安庆市</p>
                             <p data-id="410500">安阳市</p>
@@ -75,9 +79,10 @@
                             <p data-id="659002">阿拉尔市</p>
                             <p data-id="652900">阿克苏地区</p>
                             <p data-id="820100">澳门特别行政区</p>
-                            <p data-id="654300">阿勒泰地区</p>
+                            <p data-id="654300">阿勒泰地区</p> -->
                         </div>
-                        <div class="city-list"><span class="city-letter" id="B1">B</span>
+                        {{/each}}
+                        <!-- <div class="city-list"><span class="city-letter" id="B1">B</span>
                             <p data-id="220800">白城市</p>
                             <p data-id="150200">包头市</p>
                             <p data-id="150800">巴彦淖尔市</p>
@@ -493,7 +498,7 @@
                             <p data-id="620700">张掖市</p>
                             <p data-id="512000">资阳市</p>
                             <p data-id="640500">中卫市</p>
-                        </div>
+                        </div> -->
                     </div>
                     <!-- 字母列表 -->
                     <div class="letter">
@@ -531,7 +536,13 @@
     </div>
     <script type='text/javascript' src='../lib/zepto.min.js' charset='utf-8'></script>
     <script type='text/javascript' src='../lib/sm.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='../lib/template.js' charset='utf-8'></script>
+    <script type='text/javascript' src='../resources/js/city-data.js' charset='utf-8'></script>
     <script type="text/javascript">
+    // 渲染城市列表
+    var html = template('city', data);
+    document.getElementById('city').innerHTML = html;
+    
     //加载城市事件
     // $('body').on('click', '#zone_ids,#gr_zone_ids', function() {
     //     var zid = $(this).attr('id');

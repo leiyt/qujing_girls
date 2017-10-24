@@ -1,5 +1,5 @@
 // 城市列表提取
-citys = {
+data = {
     "list": [{
             "letter": "A",
             "citLlist": [
