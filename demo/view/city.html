@@ -63,9 +63,9 @@
                 </div>
                 <div class="container" style="z-index: 9999; ">
                     <div class="city" id="city">
-                        {{each list as city}}
+                        {{each list city}}
                         <div class="city-list"><span class="city-letter" id="{{city.letter}}+'1'">{{city.letter}}</span>
-                            {{each city.citLlist as citLlist}}
+                            {{each city.citLlist citLlist}}
                             <p data-id="{{citLlist.id}}">{{citLlist.name}}</p>
                             {{/each}}
                             <!-- <p data-id="210300">鞍山市</p>
