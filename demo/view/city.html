@@ -63,8 +63,10 @@
                 </div>
                 <div class="container" style="z-index: 9999; ">
                     <div class="city" id="city">
+                        <!-- 循环data.list里的每个数组,即data.list=city -->
                         {{each list city}}
                         <div class="city-list"><span class="city-letter" id="{{city.letter}}+'1'">{{city.letter}}</span>
+                            <!-- 循环data.list里的citLlist -->
                             {{each city.citLlist citLlist}}
                             <p data-id="{{citLlist.id}}">{{citLlist.name}}</p>
                             {{/each}}
