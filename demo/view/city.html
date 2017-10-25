@@ -542,7 +542,9 @@
     <script type='text/javascript' src='../resources/js/city-data.js' charset='utf-8'></script>
     <script type="text/javascript">
     // 渲染城市列表
+    // 指定模板数据
     var html = template('city', data);
+    // 渲染数据
     document.getElementById('city').innerHTML = html;
     
     //加载城市事件
