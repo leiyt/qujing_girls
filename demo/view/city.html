@@ -41,8 +41,8 @@
                         <div class="col-25"><p><a href="#" class="button button-dark">张家界</a></p></div>
                     </div>
                     <div class="title-box">热门城市</div>
-                    <div class="row">
-                        <div class="col-25"><p><a href="#" class="button button-dark">北京</a></p></div>
+                    <div class="row" id="hotcity">                        
+                        <!-- <div class="col-25"><p><a href="#" class="button button-dark">北京</a></p></div>
                         <div class="col-25"><p><a href="#" class="button button-dark">上海</a></p></div>
                         <div class="col-25"><p><a href="#" class="button button-dark">南京</a></p></div>
                         <div class="col-25"><p><a href="#" class="button button-dark">杭州</a></p></div>
@@ -57,7 +57,7 @@
                         <div class="col-25"><p><a href="#" class="button button-dark">郑州</a></p></div>
                         <div class="col-25"><p><a href="#" class="button button-dark">广州</a></p></div>
                         <div class="col-25"><p><a href="#" class="button button-dark">太原</a></p></div>
-                        <div class="col-25"><p><a href="#" class="button button-dark">石家庄</a></p></div>
+                        <div class="col-25"><p><a href="#" class="button button-dark">石家庄</a></p></div> -->
                     </div>
                 </div>
                 <div class="container">
@@ -110,12 +110,23 @@
     <script type='text/javascript' src='../lib/sm.min.js' charset='utf-8'></script>
     <script type='text/javascript' src='../lib/template.js' charset='utf-8'></script>
     <script type='text/javascript' src='../resources/js/city-data.js' charset='utf-8'></script>
+    <script id="hot" type="text/html">
+        {{each list as value i}}
+            <div class="col-25"><p><a href="#" class="button button-dark">{{value}}</a></p></div>
+        {{/each}}
+    </script>
     <script type="text/javascript">
     // 渲染城市列表
     // 指定模板数据
     var html = template('city', data);
     // 渲染数据
     document.getElementById('city').innerHTML = html;
+
+    // 渲染热门城市列表
+    var hotcity={"list":["北京","上海","南京","杭州","苏州","天津","深圳","无锡","成都","重庆","长沙","武汉","郑州","广州","太原","石家庄"]
+    };
+    var hothtml = template('hot', hotcity);
+    document.getElementById('hotcity').innerHTML = hothtml;
     
     //加载城市事件
     // $('body').on('click', '#zone_ids,#gr_zone_ids', function() {
