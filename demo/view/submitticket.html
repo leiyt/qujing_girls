@@ -162,9 +162,14 @@
     <script type='text/javascript' src='../lib/iscroll-ISD.js' charset='utf-8'></script>
     <script type="text/javascript">
     $(function(){
+        // 无配置参数
+        // var myScroll = new iScroll("wrapper");
+        // 有配置参数
         var myScroll = new iScroll("wrapper",{
             scrollX: true,
-            scrollY: false
+            scrollY: false,
+            snap: true,
+            scrollbar: false
         });
 
     })
