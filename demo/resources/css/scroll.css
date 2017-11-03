@@ -20,8 +20,8 @@
 .scroll-box>.scroll>li{
 	list-style: none;
 	font-size: 12px;
-	width: 55px;
-	/*width: 7.5%;*/
+	/*width: 55px;*/
+	width: 7.5%;
 	color: #fff;
 	float: left;
 }
@@ -46,8 +46,8 @@
 }
 
 .scroll>li>.scroll-center>span.line{
-	width: 46px;
-	/*width: 96%;*/
+	/*width: 46px;*/
+	width: 96%;
 	height: 0;
 	border-top: 1px solid #fff;
 }
