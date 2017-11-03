@@ -1,100 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>提交订单</title>
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
-<link rel="stylesheet" href="../lib/sm.min.css">
-<link rel="stylesheet" href="../resources/css/zhou.css">
+    <meta charset="UTF-8">
+    <title>提交订单</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <link rel="stylesheet" href="../lib/sm.min.css">
+    <link rel="stylesheet" href="../resources/css/zhou.css">
+    <link rel="stylesheet" href="../resources/css/scroll.css">
 </head>
 
 <body>
-<div class="page-group ">
-  <div class="page page-current">
-    <header class="bar bar-nav  bg-color-1"> <a class="button button-link button-nav pull-left" href="javascript:window.history.back(); "> <span class="icon img-left text-color-7"></span> </a>
-    <a href="#" class="  create-actions pull-right text-color-7"  >...</a>
-      <h1 class="title text-color-7 ">广州北&nbsp;至&nbsp;张家界</h1>
-    </header>
-    <div class="content bg-color-0"  style=" margin-bottom : 2.5rem;">
-      <div class="content-block padded-0 margin-0">
-        <div class="card facebook-card margin-0">
-          <div class="card-content  ">
-            <div class="row text-center  padded-15 ">
-              <div class="col-25  choose_ticket">
-                <div class="grid-label text-color-4 font-size-14 text-font-weight ">商务座</div>
-                <div class="grid-label text-color-6 font-size-10 ">120张</div>
-                <div class="grid-label text-color-1 font-size-12 ">￥238.00</div>
-              </div>
-              <div class="col-25 choose_ticket">
-                <div class="grid-label text-color-4 font-size-14 text-font-weight ">一等座</div>
-                <div class="grid-label text-color-6 font-size-10 ">120张</div>
-                <div class="grid-label text-color-1 font-size-12 ">168.00</div>
-              </div>
-              <div class="col-25  choose_ticket">
-                <div class="grid-label text-color-4 font-size-14 text-font-weight ">二等座</div>
-                <div class="grid-label text-color-6 font-size-10 ">120张</div>
-                <div class="grid-label text-color-3 font-size-12 ">128.00</div>
-              </div>
-              <div class="col-25  choose_ticket">
-                <div class="grid-label text-color-4 font-size-14 text-font-weight ">无座</div>
-                <div class="grid-label text-color-6 font-size-10 ">120张</div>
-                <div class="grid-label text-color-3 font-size-12 ">￥98.00</div>
-              </div>
+    <div class="page-group ">
+        <div class="page page-current">
+            <header class="bar bar-nav  bg-color-1"> <a class="button button-link button-nav pull-left" href="javascript:window.history.back(); "> <span class="icon img-left text-color-7"></span> </a>
+                <a href="#" class="  create-actions pull-right text-color-7">...</a>
+                <h1 class="title text-color-7 ">广州北&nbsp;至&nbsp;张家界</h1>
+            </header>
+                
+            <div class="content bg-color-0" style=" margin-bottom : 2.5rem;">
+                <div class="scroll-box" id="wrapper">
+                    <ul class="scroll">
+                        <li>
+                            <span class="scroll-top">深圳</span>
+                            <span class="scroll-center">
+                                <span class="circle"></span><span class="line dashed"></span>
+                            </span>
+                            <span class="scroll-bottom">6:20</span>
+                        </li>
+                        <li>
+                            <span class="scroll-top">广州</span>
+                            <span class="scroll-center">
+                                <span class="circle current"></span><span class="line"></span>
+                            </span>
+                            <span class="scroll-bottom">7:45</span>
+                        </li>
+                        <li>
+                            <span class="scroll-top">韶关</span>
+                            <span class="scroll-center">
+                                <span class="circle"></span><span class="line"></span>
+                            </span>
+                            <span class="scroll-bottom">7:45</span>
+                        </li>
+                        <li>
+                            <span class="scroll-top">郴州</span>
+                            <span class="scroll-center">
+                                <span class="circle"></span><span class="line"></span>
+                            </span>
+                            <span class="scroll-bottom">7:45</span>
+                        </li>
+                        <li>
+                            <span class="scroll-top">衡阳</span>
+                            <span class="scroll-center">
+                                <span class="circle"></span><span class="line"></span>
+                            </span>
+                            <span class="scroll-bottom">7:45</span>
+                        </li>
+                        <li>
+                            <span class="scroll-top">长沙</span>
+                            <span class="scroll-center">
+                                <span class="circle"></span><span class="line"></span>
+                            </span>
+                            <span class="scroll-bottom">7:45</span>
+                        </li>
+                        <li>
+                            <span class="scroll-top">益阳</span>
+                            <span class="scroll-center">
+                                <span class="circle"></span><span class="line"></span>
+                            </span>
+                            <span class="scroll-bottom">7:45</span>
+                        </li>
+                        <li>
+                            <span class="scroll-top">常德</span>
+                            <span class="scroll-center">
+                                <span class="circle"></span><span class="line"></span>
+                            </span>
+                            <span class="scroll-bottom">7:45</span>
+                        </li>
+                        <li>
+                            <span class="scroll-top">石门县</span>
+                            <span class="scroll-center">
+                                <span class="circle"></span><span class="line"></span>
+                            </span>
+                            <span class="scroll-bottom">7:45</span>
+                        </li>
+                        <li>
+                            <span class="scroll-top">张家界西</span>
+                            <span class="scroll-center">
+                                <span class="circle current"></span><span class="line dashed"></span>
+                            </span>
+                            <span class="scroll-bottom">7:45</span>
+                        </li>
+                        <li>
+                            <span class="scroll-top">吉首</span>
+                            <span class="scroll-center">
+                                <span class="circle"></span><span class="line dashed"></span>
+                            </span>
+                            <span class="scroll-bottom">7:45</span>
+                        </li>
+                        <li>
+                            <span class="scroll-top">怀化</span>
+                            <span class="scroll-center">
+                                <span class="circle"></span><span class="line dashed"></span>
+                            </span>
+                            <span class="scroll-bottom">7:45</span>
+                        </li>
+                        <li>
+                            <span class="scroll-top">铜仁</span>
+                            <span class="scroll-center">
+                                <span class="circle"></span>
+                            </span>
+                            <span class="scroll-bottom">7:45</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content-block padded-0 margin-0">
+                    <div class="card facebook-card margin-0">
+                        <div class="card-content  ">
+                            <div class="row text-center  padded-15 ">
+                                <div class="col-25  choose_ticket">
+                                    <div class="grid-label text-color-4 font-size-14 text-font-weight ">商务座</div>
+                                    <div class="grid-label text-color-6 font-size-10 ">120张</div>
+                                    <div class="grid-label text-color-1 font-size-12 ">￥238.00</div>
+                                </div>
+                                <div class="col-25 choose_ticket">
+                                    <div class="grid-label text-color-4 font-size-14 text-font-weight ">一等座</div>
+                                    <div class="grid-label text-color-6 font-size-10 ">120张</div>
+                                    <div class="grid-label text-color-1 font-size-12 ">168.00</div>
+                                </div>
+                                <div class="col-25  choose_ticket">
+                                    <div class="grid-label text-color-4 font-size-14 text-font-weight ">二等座</div>
+                                    <div class="grid-label text-color-6 font-size-10 ">120张</div>
+                                    <div class="grid-label text-color-3 font-size-12 ">128.00</div>
+                                </div>
+                                <div class="col-25  choose_ticket">
+                                    <div class="grid-label text-color-4 font-size-14 text-font-weight ">无座</div>
+                                    <div class="grid-label text-color-6 font-size-10 ">120张</div>
+                                    <div class="grid-label text-color-3 font-size-12 ">￥98.00</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-color-7"> <span class="icon left-icon"></span><span class="icon right-icon"></span>
+                            <div class="row">
+                                <div class="col-100 no-gutter font-size-12  text-color-5"> 二周&nbsp;&nbsp;&nbsp; 46000************6&nbsp;&nbsp;&nbsp; 成人票&nbsp;&nbsp;&nbsp; 一等座/
+                                    <i class="text-color-3">￥168</i> <span class="icon-cancle"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p><a href="" class="button margin-15 bg-color-7 text-color-1 text-font-weight font-size-14">添加乘客信息</a></p>
+                </div>
             </div>
-          </div>
-          <div class="card-footer bg-color-7"> <span class="icon left-icon"></span><span class="icon right-icon"></span>
-            <div class="row">
-              <div class="col-100 no-gutter font-size-12  text-color-5"> 二周&nbsp;&nbsp;&nbsp;
-                46000************6&nbsp;&nbsp;&nbsp;
-                成人票&nbsp;&nbsp;&nbsp;
-                一等座/<i class="text-color-3">￥168</i> <span class="icon-cancle"></span></div>
+            <div class="bar bar-footer padded-0">
+                <p class=" margin-0"><a href="" class="button " style=" top:0px">提交订单</a></p>
             </div>
-          </div>
         </div>
-        <p><a href="" class="button margin-15 bg-color-7 text-color-1 text-font-weight font-size-14">添加乘客信息</a></p>
-      </div>
     </div>
-    <div class="bar bar-footer padded-0">
-      <p class=" margin-0"><a href="" class="button " style=" top:0px">提交订单</a></p>
     </div>
-  </div>
-</div>
-</div>
-<script type='text/javascript' src='../lib/zepto.min.js' charset='utf-8'></script> 
-<script type='text/javascript' src='../lib/sm.js' charset='utf-8'></script> 
-<script type="text/javascript">
-$(document).on('click','.create-actions', function () {
-      var buttons1 = [
-        {
-          text: '请选择',
-          label: true
-        },
-        {
-          text: '卖出',
-          bold: true,
-          color: 'danger',
-          onClick: function() {
-            $.alert("你选择了“卖出“");
-          }
-        },
-        {
-          text: '买入',
-          onClick: function() {
-            $.alert("你选择了“买入“");
-          }
-        }
-      ];
-      var buttons2 = [
-        {
-          text: '取消',
-          bg: 'danger'
-        }
-      ];
-      var groups = [buttons1, buttons2];
-      $.actions(groups);
-  });
-</script>
+    <script type='text/javascript' src='../lib/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='../lib/sm.js' charset='utf-8'></script>
+    <script type='text/javascript' src='../lib/iscroll-ISD.js' charset='utf-8'></script>
+    <script type="text/javascript">
+    $(function(){
+        var myScroll = new iScroll("wrapper");
 
+    })
+    $(document).on('click', '.create-actions', function() {
+        var buttons1 = [{
+                text: '请选择',
+                label: true
+            },
+            {
+                text: '卖出',
+                bold: true,
+                color: 'danger',
+                onClick: function() {
+                    $.alert("你选择了“卖出“");
+                }
+            },
+            {
+                text: '买入',
+                onClick: function() {
+                    $.alert("你选择了“买入“");
+                }
+            }
+        ];
+        var buttons2 = [{
+            text: '取消',
+            bg: 'danger'
+        }];
+        var groups = [buttons1, buttons2];
+        $.actions(groups);
+    });
+    </script>
 </body>
+
 </html>

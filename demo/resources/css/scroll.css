@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*头部滚动样式*/
+.bar:after {
+	display: none;
+}
+.scroll-box{
+	width: 100%;
+	overflow: hidden;
+	background-color: #1FCCA9;
+}
+.scroll-box>ul.scroll{
+	width: 200%;
+	padding: 25px 0;
+	padding-left: 15px;
+	margin: 0;
+	overflow: hidden;
+}
+.scroll-box>.scroll>li{
+	list-style: none;
+	font-size: 12px;
+	width: 55px;
+	color: #fff;
+	float: left;
+}
+.scroll>li>.scroll-center{
+	display: block;
+	margin-left: 6px;
+	white-space: nowrap;
+	position: relative;
+}
+.scroll>li>.scroll-center>span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.scroll>li>.scroll-center>span.circle{
+	width: 9px;
+	height: 9px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+.scroll>li>.scroll-center>span.circle.current{
+	background-color: #FFA800;
+}
+
+.scroll>li>.scroll-center>span.line{
+	width: 46px;
+	height: 0;
+	border-top: 1px solid #fff;
+}
+.scroll>li>.scroll-center>span.dashed{
+	border-top: 1px dashed #fff;
+	/*border-style: dashed;*/
+}
