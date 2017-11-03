@@ -162,7 +162,10 @@
     <script type='text/javascript' src='../lib/iscroll-ISD.js' charset='utf-8'></script>
     <script type="text/javascript">
     $(function(){
-        var myScroll = new iScroll("wrapper");
+        var myScroll = new iScroll("wrapper",{
+            scrollX: true,
+            scrollY: false
+        });
 
     })
     $(document).on('click', '.create-actions', function() {
