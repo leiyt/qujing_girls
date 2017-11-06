@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+.content{
+	overflow-x: hidden;
+}
 /*头部滚动样式*/
 .bar:after {
 	display: none;
