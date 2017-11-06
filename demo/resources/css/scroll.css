@@ -2,6 +2,7 @@
 
 .content{
 	overflow-x: hidden;
+	/*overflow: hidden;*/
 }
 /*头部滚动样式*/
 .bar:after {
