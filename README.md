@@ -1,5 +1,5 @@
 # qujing_university
-# https://leiyt.github.io/qujing_university/demo/view/index.html
+### https://leiyt.github.io/qujing_university/demo/view/index.html
 ### git命令
 * git innit                    初始化一个git仓库
 * git add fileName             把文件修改添加到暂存区
