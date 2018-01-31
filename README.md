@@ -28,5 +28,6 @@
 5. git commit -m "add new file" 提交修改 -m 后面要写描述
 6. git push -u origin zhouyun 把我的修改推到github上得zhouyun分支(首次加-u，后面不需要加)
 7. git checkout dev 切换到dev分支
-8. git merge lyt  合并分支lyt 到dev分支上（上面切换了分支到dev，dev分=分支就是当前分支）
+8. git merge lyt  合并分支lyt 到dev分支上（上面切换了分支到dev，dev分支就是当前分支）
+
 项目原地址：http://www.zcool.com.cn/work/ZMjM0NTY5NjA=.html
